@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+*{
+    background-color: #ddeefc;
+    
+}
+
+#container{
+    width: 100%;
+    height: 900px;
+    display: grid;
+    place-items: center;
+}
+
+.glass{
+    height: 650px;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 21px 31px -5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 21px 31px -5px rgba(66, 68, 90, 1);
+    box-shadow: 0px 21px 31px -5px rgba(66, 68, 90, 1);
+}
+
+
+.card_bg{
+    width: 350px;
+    border-radius: 17px;
+    position: relative;
+    top: -15%;
+    left: 16%;
+    -webkit-box-shadow: 0px 0px 27px -9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 27px -9px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 27px -9px rgba(66, 68, 90, 1);
+}
+
+.card_visa{
+    width: 100px;
+    position: relative;
+    top: -40%;
+    left: -8%;
+    background: none;
+}
+
+.card_chip{
+    height: 40px;
+    position: relative;
+    top: -46%;
+    left: 20%;
+    border-radius: 5px;
+    
+}
+
+.card_number{
+    background: none;
+    font-size: 25px;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+    position: relative;
+    top: -240px;
+    left: 12%;
+}
+
+
+.card_name{
+    background: none;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: -165px;
+    left: -47%;
+}
+
+
+.card_date{
+    background: none;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: -186px;
+    left: -16%;
+}
+
+.card_date2{
+    background: none;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: -186px;
+    left: 72%;
+}
+
+.inp_txt{
+    background: none;
+    display: block;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    top: -15%;
+    left: 9%;
+}
+
+.inp_cc_num{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    position: relative;
+    top: -15%;
+    left: 9%;
+    transition-duration: 0.3s;
+}
+
+
+.inp_cc_num:hover{
+    border: 1px solid blueviolet;
+}
+
+.inp_cc_num:focus{
+    border: 1px solid blueviolet;
+    outline: none;
+    -webkit-box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+    box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+}
+
+
+.inp_txt2{
+    background: none;
+    display: block;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    top: -40px;
+    left: 9%;
+}
+
+.inp_cc_name{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    position: relative;
+    top: -6%;
+    left: 9%;
+}
+
+.inp_cc_name:hover{
+    border: 1px solid blueviolet;
+}
+
+.inp_cc_name:focus{
+    border: 1px solid blueviolet;
+    outline: none;
+    -webkit-box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+    box-shadow: 0px 9px 24px -9px rgba(66, 68, 90, 1);
+}
+
+
+.inp_txt3{
+    background: none;
+    display: block;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    top: 5%;
+    left: 9%;
+}
+
+
+#inp_MM{
+    background: none;
+    border: 1px solid gray;
+    width: 130px;
+    height: 50px;
+    text-align: center left;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 9%;
+    top: 5%;
+}
+
+#inp_MM:hover{
+    border: 1px solid blueviolet;
+}
+
+#inp_MM:focus{
+    outline: none;
+}
+
+#inp_YY{
+    background: none;
+    border: 1px solid gray;
+    width: 130px;
+    height: 50px;
+    text-align: center left;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 5%;
+    left: 10%;
+}
+
+#inp_YY:hover{
+    border: 1px solid blueviolet;
+}
+
+#inp_YY:focus{
+    outline: none;
+}
+
+
+.inp_CVV{
+    background: none;
+    border: 1px solid gray;
+    width: 130px;
+    height: 47px;
+    text-align: center left;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+
+.inp_CVV:hover{
+    border: 1px solid blueviolet;
+}
+
+.inp_CVV:focus{
+    outline: none;
+}
+
+.inp_txt4{
+    background: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: relative;
+    top: -0.5%;
+    left: 10%;
+}
+
+.btn_pay{
+    border: 0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 7px;
+    height: 50px;
+    width: 410px;
+    position: relative;
+    left: 9%;
+    top: 10%;
+    transition-duration: 0.4s;
+}
+
+.btn_pay:hover{
+    background-color: white;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+
+
+

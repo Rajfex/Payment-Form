@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="card.css">
+    <title>Card form</title>
+</head>
+<body>
+    <div id="container">
+        <div class="glass">
+            <img src="18.jpeg" alt="" class="card_bg">
+            <img src="visa3.png" alt="" class="card_visa">
+            <img src="chip.png" alt="" class="card_chip">
+            <span class="card_number">#### #### #### ####</span>
+            <span class="card_name">FULL NAME</span>
+            <span class="card_date">VALID&nbspTHRU</span>
+            <span class="card_date2">MM/YY</span>
+            <span class="inp_txt">Card Number</span>
+            <input type="tel" class="inp_cc_num">
+            <span class="inp_txt2">Card Name</span>
+            <input type="tel" class="inp_cc_name"> 
+            <span class="inp_txt3">Valid Thru</span>
+            <select name="" id="inp_MM">
+                <option value="" selected disabled>Mounth</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+            </select>
+            <select name="" id="inp_YY">
+                <option value="" selected disabled>Year</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+                <option value="">2024</option>
+                <option value="">2025</option>
+                <option value="">2026</option>
+                <option value="">2027</option>
+                <option value="">2028</option>
+                <option value="">2029</option>
+                <option value="">2030</option>
+                <option value="">2033</option>
+                <option value="">2034</option>
+            </select>
+            <span class="inp_txt4">CVV</span>
+            <input type="text" maxlength="3" class="inp_CVV">
+            <button class="btn_pay">Pay Now</button>
+        </div>
+    </div>
+</body>
+</html>
